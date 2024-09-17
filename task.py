@@ -7,6 +7,6 @@ score = int(input("Enter a score"))
 
 
 
-grade = (student_name, subject, score)
+grade = (name, subject, score)
 
     return grade
