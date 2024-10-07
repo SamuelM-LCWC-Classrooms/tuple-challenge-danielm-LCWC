@@ -8,5 +8,3 @@ def task():
     grade = (name, subject, score)
 
     return grade 
-student_grade = task()
-print(student_grade)
