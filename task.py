@@ -1,4 +1,4 @@
-def get_student_grade():
+def task():
     name = input("Enter a student name: ")
 
     subject = input("Enter a subject: ")
@@ -8,5 +8,5 @@ def get_student_grade():
     grade = (name, subject, score)
 
     return grade 
-student_grade = get_student_grade()
-print("Grade recorded:", student_grade)
+student_grade = task()
+print(student_grade)
